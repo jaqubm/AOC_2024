@@ -3,6 +3,7 @@ import com.pg.bigdata.neighborhoodanalytics.aoc.fp.Exercise
 
 import scala.math.abs
 
+// Copied from JJ to check how it works, because I couldn't make examples from README to work
 object Day1 extends Exercise(2024, 1) {
   case class Pair(el1: Long, el2: Long)
   private object Pair {
