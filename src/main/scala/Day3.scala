@@ -40,7 +40,7 @@ object Day3 extends Exercise(2024, 3) {
     var totalSum   = 0
     var mulEnabled = true
 
-    val commandPattern: Regex = s"${mulPattern}|${doPattern}|${dontPattern}".r
+    val commandPattern: Regex = s"$mulPattern|$doPattern|$dontPattern".r
 
     for (command <- commandPattern.findAllIn(corruptedMemory)) {
       command.trim match {
