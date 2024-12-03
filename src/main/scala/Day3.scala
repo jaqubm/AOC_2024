@@ -1,7 +1,6 @@
 import cats.effect.IO
 import com.pg.bigdata.neighborhoodanalytics.aoc.fp.Exercise
 
-import scala.math.abs
 import scala.util.matching.Regex
 
 object Day3 extends Exercise(2024, 3) {
